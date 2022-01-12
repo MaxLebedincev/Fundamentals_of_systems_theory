@@ -1,1 +1,1 @@
-# Kinopoisk
+# Fundamentals_of_systems_theory
