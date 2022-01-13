@@ -252,7 +252,7 @@ public class DriverIntroductionExample implements AutoCloseable {
         String a,b,c,d,e,f,g,h,l;
         switch (selector) {
             case 1:
-                System.out.println("Конструктор Node:\nВведите класс, name, form, type");
+                System.out.println("Конструктор Node:\nВведите класс, form, name, type");
                 sc.nextLine();
                 a = sc.nextLine();
                 b = sc.nextLine();
@@ -261,7 +261,7 @@ public class DriverIntroductionExample implements AutoCloseable {
                 app.createNode(a, b, c, d);
                 break;
             case 2:
-                System.out.println("Remover Node:\nВведите класс, name, form, type");
+                System.out.println("Remover Node:\nВведите класс, form, name, type");
                 sc.nextLine();
                 a = sc.nextLine();
                 b = sc.nextLine();
@@ -270,8 +270,8 @@ public class DriverIntroductionExample implements AutoCloseable {
                 app.removeNode(a, b, c, d);
                 break;
             case 3:
-                System.out.println("Create Node:\nВведите класс_first, name_first, form_first, type_first," +
-                        " отношение, класс_second, name_second, form_second, type_second");
+                System.out.println("Create Node:\nВведите класс_первый, form_first, name_first, type_first," +
+                        " отношение, класс_второй, form_second, name_second, type_second");
                 a = sc.nextLine();
                 a = sc.nextLine();
                 b = sc.nextLine();
@@ -285,8 +285,8 @@ public class DriverIntroductionExample implements AutoCloseable {
                 app.createFriendship(a, b, c, d, e, f, g, h, l);
                 break;
             case 4:
-                System.out.println("Remover Node:\nВведите класс_first, name_first, form_first, type_first," +
-                        " отношение, класс_second, name_second, form_second, type_second");
+                System.out.println("Remover Node:\nВведите класс_первый, form_first, name_first, type_first," +
+                        " отношение, класс_второй, form_second, name_second, type_second");
                 a = sc.nextLine();
                 a = sc.nextLine();
                 b = sc.nextLine();
